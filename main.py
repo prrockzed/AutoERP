@@ -21,6 +21,7 @@ def main():
         print("This is the inner HTML", string1)
     except Exception as e:
         print("no text content", e)
+        exit()
 
     if string == "your_question1":
         ans = driver.find_element(By.ID, "answer")
